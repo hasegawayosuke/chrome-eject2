@@ -1,0 +1,23 @@
+{
+    "manifest_version" : 2,
+    "name" : "Eject 2",
+    "version" : "0.1",
+    "description" : "Eject CD-ROM",
+    "icons" : {
+        "16" : "16.png"
+    },
+    "browser_action" : {
+        "default_icon" : "19.png",
+        "default_title" : "Eject CD-ROM"
+    },
+    "permissions" : [
+        "system.storage",
+        "downloads",
+        "downloads.open"
+    ],
+    "background" : {
+        "persistent" : false,
+        "scripts" : [ "background.js" ]
+    }
+}
+
